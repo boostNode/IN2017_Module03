@@ -1,0 +1,6 @@
+E:\_boostNode\GitHub\IN2017\Module03\TemperatureList\TemperatureList\bin\Debug\TemperatureList.exe.config
+E:\_boostNode\GitHub\IN2017\Module03\TemperatureList\TemperatureList\bin\Debug\TemperatureList.exe
+E:\_boostNode\GitHub\IN2017\Module03\TemperatureList\TemperatureList\bin\Debug\TemperatureList.pdb
+E:\_boostNode\GitHub\IN2017\Module03\TemperatureList\TemperatureList\obj\Debug\TemperatureList.csprojResolveAssemblyReference.cache
+E:\_boostNode\GitHub\IN2017\Module03\TemperatureList\TemperatureList\obj\Debug\TemperatureList.exe
+E:\_boostNode\GitHub\IN2017\Module03\TemperatureList\TemperatureList\obj\Debug\TemperatureList.pdb
