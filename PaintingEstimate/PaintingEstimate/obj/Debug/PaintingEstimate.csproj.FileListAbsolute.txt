@@ -7,3 +7,6 @@ K:\_boostNode\GitHub\IN2017\Module03\PaintingEstimate\PaintingEstimate\obj\Debug
 K:\_boostNode\GitHub\IN2017\Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.csproj.GenerateResource.Cache
 K:\_boostNode\GitHub\IN2017\Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.exe
 K:\_boostNode\GitHub\IN2017\Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\bin\Debug\PaintingEstimate.exe.config
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.exe
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.pdb
