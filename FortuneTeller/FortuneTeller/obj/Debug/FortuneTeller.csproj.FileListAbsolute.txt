@@ -7,3 +7,6 @@ K:\_boostNode\GitHub\IN2017\Module03\FortuneTeller\FortuneTeller\obj\Debug\Fortu
 K:\_boostNode\GitHub\IN2017\IN2017_Module03\FortuneTeller\FortuneTeller\bin\Debug\FortuneTeller.exe.config
 K:\_boostNode\GitHub\IN2017\IN2017_Module03\FortuneTeller\FortuneTeller\obj\Debug\FortuneTeller.exe
 K:\_boostNode\GitHub\IN2017\IN2017_Module03\FortuneTeller\FortuneTeller\obj\Debug\FortuneTeller.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\FortuneTeller\FortuneTeller\bin\Debug\FortuneTeller.exe
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\FortuneTeller\FortuneTeller\bin\Debug\FortuneTeller.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\FortuneTeller\FortuneTeller\obj\Debug\FortuneTeller.csprojResolveAssemblyReference.cache

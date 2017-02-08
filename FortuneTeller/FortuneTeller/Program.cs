@@ -16,13 +16,13 @@ namespace FortuneTeller
         static void Main(string[] args)
         {
             // class scope variables
-            int[] intArrayIndices = new int[2];  // array size of 2 based on the problem specification, size drives the number of fortunes to display
+            int[] intArrayIndices = new int[2];  // array size drives the number of fortunes to display
 
             String[] strArrayFortunes = new String[] {  "I see a tall, dark stranger in your future.",
                                                         "Your future holds vast improvements in your C# programming skills!",
                                                         "Your computer will soon be infected with a horrible virus!",
                                                         "A difficult programming challenge will soon be presented to you!",
-                                                        "An iterative ... an iterative ... an iterative array will plague you!",
+                                                        "An iterative ... an iterative ... an iterative loop will plague you!",
                                                         "Powerful you have become, the dark side I sense in you." };
 
             bool boolFoundUniqueIndex;
