@@ -20,7 +20,7 @@ namespace TemperatureList
 
             int intLoopCounter = 0;
 
-            int[] intArrayTemps = new int[7];
+            int[] intArrayTemps = new int[7];// size of this array will determine number of temperatures to input
 
             int intSumTemps = 0;
             double dblAverageTemp;
@@ -75,8 +75,6 @@ namespace TemperatureList
                 {
                     Console.WriteLine("\n\tTemperature[{0}]: {1} degrees -- same as average", i, intArrayTemps[i]);
                 }
-                
-
             }
 
             // wait on user to close console
