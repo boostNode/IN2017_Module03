@@ -34,10 +34,10 @@ namespace YouDoItOverloading
         //  begin Triple(int num)
         //
         //      Inputs:
-        //          int     num     an integer to display    
+        //          int     num         an integer to display    
         //
         //      Outputs:
-        //          Displays an integer number 3 times
+        //          Displays an integer and the product when multiplied by MULT_FACTOR
         //
         private static void Triple(int num)
         {
@@ -49,10 +49,10 @@ namespace YouDoItOverloading
         //  begin Triple(String message)
         //
         //      Inputs:
-        //          int     num     an integer to display    
+        //          String  message     a string to display
         //
         //      Outputs:
-        //          Displays an integer number 3 times
+        //          Displays a string repeated 3 times
         //
         private static void Triple(String message)
         {
