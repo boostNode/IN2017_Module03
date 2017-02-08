@@ -16,3 +16,6 @@ K:\_boostNode\GitHub\IN2017\IN2017_Module03b\CheckZips\CheckZips\obj\Debug\Check
 K:\_boostNode\GitHub\IN2017\IN2017_Module03\CheckZips\CheckZips\bin\Debug\CheckZips.exe.config
 K:\_boostNode\GitHub\IN2017\IN2017_Module03\CheckZips\CheckZips\obj\Debug\CheckZips.exe
 K:\_boostNode\GitHub\IN2017\IN2017_Module03\CheckZips\CheckZips\obj\Debug\CheckZips.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\CheckZips\CheckZips\bin\Debug\CheckZips.exe
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\CheckZips\CheckZips\bin\Debug\CheckZips.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\CheckZips\CheckZips\obj\Debug\CheckZips.csprojResolveAssemblyReference.cache

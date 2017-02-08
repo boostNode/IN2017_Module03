@@ -31,7 +31,6 @@ namespace CheckZips
                                                             "67209",
                                                             "67210" };
 
-
             // initialize console
             Console.WriteLine("Check Zips");
 
@@ -46,7 +45,7 @@ namespace CheckZips
                 strFeedback = "";
                 if ( strInput.Length != 5 || !Int32.TryParse(strInput, out intInput) ) // check for correct length, all digits
                 {
-                    strFeedback = "Invalid Input ... must be 5 digits! ";
+                    strFeedback = "Invalid Input; must be 5 digits!\n\n\t";
                 }
 
             } while (strFeedback != "");
