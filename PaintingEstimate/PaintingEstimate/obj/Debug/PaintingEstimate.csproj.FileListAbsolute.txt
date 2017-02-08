@@ -10,3 +10,9 @@ K:\_boostNode\GitHub\IN2017\Module03\PaintingEstimate\PaintingEstimate\obj\Debug
 K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\bin\Debug\PaintingEstimate.exe.config
 K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.exe
 K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\bin\Debug\PaintingEstimate.exe
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\bin\Debug\PaintingEstimate.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.csprojResolveAssemblyReference.cache
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.frmPaintingEstimate.resources
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.Properties.Resources.resources
+K:\_boostNode\GitHub\IN2017\IN2017_Module03\PaintingEstimate\PaintingEstimate\obj\Debug\PaintingEstimate.csproj.GenerateResource.Cache

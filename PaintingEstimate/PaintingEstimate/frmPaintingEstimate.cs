@@ -56,6 +56,7 @@ namespace PaintingEstimate
             }
             else
             {
+                // set default value
                 txtLength.Text = "0";
                 dblLength = 0.0;
             }
@@ -79,6 +80,7 @@ namespace PaintingEstimate
             }
             else
             {
+                // set default value
                 txtWidth.Text = "0";
                 dblWidth = 0.0;
             }
@@ -102,6 +104,7 @@ namespace PaintingEstimate
             }
             else
             {
+                // set default value
                 txtHeight.Text = "9";
                 dblHeight = 9.0;
             }
@@ -125,6 +128,7 @@ namespace PaintingEstimate
             }
             else
             {
+                // set default value
                 txtCostPerSqFt.Text = "6.00";
                 dblCostPerSqFt = 6.00;
             }
