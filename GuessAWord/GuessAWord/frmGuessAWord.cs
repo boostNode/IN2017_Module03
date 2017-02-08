@@ -2,7 +2,7 @@
  *  Author: Troy Davis
  *  Project: GuessAWord - GUI (Chapter 6, Programming Exercise 10)
  *  Class: IN 2017 (Advanced C#)
- *  Date: Feb 7, 2017 
+ *  Date: Feb 8, 2017 
  *  Revision: Original
  */
 
@@ -41,7 +41,7 @@ namespace GuessAWord
         char charGuess;
         char charPlaceholder = '*';
 
-        Regex rgx = new Regex(@"^[a-zA-Z]$");
+        Regex rgx = new Regex(@"^[a-zA-Z]$"); // regular expression used to validate character input
 
         public frmGuessAWord()
         {
@@ -66,8 +66,11 @@ namespace GuessAWord
             {
                 boolError = true;
             }
+            // reset input for next pass
+            txtGuess.Text = "";
+            txtGuess.Focus();
             // process input OR provide feedback on erroneous input
-            if( boolError )
+            if ( boolError )
             {
                 lblFeedback.Text = "Invalid Input: enter a single letter (a-z)!";
             }
@@ -97,6 +100,7 @@ namespace GuessAWord
             txtGuess.Text = "";
             txtGuess.Enabled = true;
             btnSubmit.Enabled = true;
+            txtGuess.Focus();
             // reset feedback
             lblFeedback.Text = "";
         }
@@ -128,6 +132,7 @@ namespace GuessAWord
                 {
                     word_displayed = word_displayed.Insert(i, char_guess.ToString());
                     word_displayed = word_displayed.Remove(i + 1, 1);
+                    // could have used String.Replace above, simply experimenting with other String methods
                     boolFoundLetter = true;
                 }
             }

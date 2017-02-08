@@ -50,7 +50,7 @@
             this.lblFeedback.Name = "lblFeedback";
             this.lblFeedback.Padding = new System.Windows.Forms.Padding(2);
             this.lblFeedback.Size = new System.Drawing.Size(260, 60);
-            this.lblFeedback.TabIndex = 17;
+            this.lblFeedback.TabIndex = 7;
             this.lblFeedback.Text = "feedback";
             // 
             // lblDivider02
@@ -60,7 +60,7 @@
             this.lblDivider02.Margin = new System.Windows.Forms.Padding(3);
             this.lblDivider02.Name = "lblDivider02";
             this.lblDivider02.Size = new System.Drawing.Size(260, 4);
-            this.lblDivider02.TabIndex = 16;
+            this.lblDivider02.TabIndex = 6;
             // 
             // txtGuess
             // 
@@ -70,7 +70,7 @@
             this.txtGuess.MaxLength = 1;
             this.txtGuess.Name = "txtGuess";
             this.txtGuess.Size = new System.Drawing.Size(26, 26);
-            this.txtGuess.TabIndex = 15;
+            this.txtGuess.TabIndex = 4;
             this.txtGuess.Text = "a";
             this.txtGuess.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -82,7 +82,7 @@
             this.lblGuess.Name = "lblGuess";
             this.lblGuess.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblGuess.Size = new System.Drawing.Size(140, 26);
-            this.lblGuess.TabIndex = 14;
+            this.lblGuess.TabIndex = 3;
             this.lblGuess.Text = "Enter a letter (a-z):";
             this.lblGuess.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -94,7 +94,7 @@
             this.lblInstructions01.Margin = new System.Windows.Forms.Padding(3);
             this.lblInstructions01.Name = "lblInstructions01";
             this.lblInstructions01.Size = new System.Drawing.Size(260, 72);
-            this.lblInstructions01.TabIndex = 13;
+            this.lblInstructions01.TabIndex = 0;
             this.lblInstructions01.Text = resources.GetString("lblInstructions01.Text");
             // 
             // btnSubmit
@@ -104,7 +104,7 @@
             this.btnSubmit.Location = new System.Drawing.Point(197, 166);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(75, 26);
-            this.btnSubmit.TabIndex = 18;
+            this.btnSubmit.TabIndex = 5;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
@@ -115,7 +115,7 @@
             this.btnInit.Location = new System.Drawing.Point(172, 274);
             this.btnInit.Name = "btnInit";
             this.btnInit.Size = new System.Drawing.Size(100, 26);
-            this.btnInit.TabIndex = 19;
+            this.btnInit.TabIndex = 8;
             this.btnInit.Text = "Play Again";
             this.btnInit.UseVisualStyleBackColor = true;
             this.btnInit.Click += new System.EventHandler(this.btnInit_Click);
@@ -127,7 +127,7 @@
             this.lblDivider01.Margin = new System.Windows.Forms.Padding(3);
             this.lblDivider01.Name = "lblDivider01";
             this.lblDivider01.Size = new System.Drawing.Size(260, 4);
-            this.lblDivider01.TabIndex = 20;
+            this.lblDivider01.TabIndex = 2;
             // 
             // lblWord
             // 
@@ -139,7 +139,7 @@
             this.lblWord.Name = "lblWord";
             this.lblWord.Padding = new System.Windows.Forms.Padding(2, 4, 2, 2);
             this.lblWord.Size = new System.Drawing.Size(260, 60);
-            this.lblWord.TabIndex = 21;
+            this.lblWord.TabIndex = 1;
             this.lblWord.Text = "word";
             this.lblWord.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
