@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblInstructions01.Text" xml:space="preserve">
-    <value>Click 'Start' to play. A random word will be generated and displayed with asterisk placeholders overlaid. Enter your guess and click 'Submit'. Placeholders are replaced when you guess correctly. Good Luck!</value>
+    <value>A random word has been generated and is shown with asterisk placeholders overlaid. Enter a letter and click 'Submit' to guess a letter in the word. Placeholders are replaced when you guess correctly. Good Luck!</value>
   </data>
 </root>

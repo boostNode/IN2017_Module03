@@ -42,22 +42,21 @@
             // 
             // lblFeedback
             // 
-            this.lblFeedback.BackColor = System.Drawing.Color.DarkRed;
+            this.lblFeedback.BackColor = System.Drawing.Color.Blue;
             this.lblFeedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFeedback.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.lblFeedback.Location = new System.Drawing.Point(12, 240);
+            this.lblFeedback.Location = new System.Drawing.Point(12, 208);
             this.lblFeedback.Margin = new System.Windows.Forms.Padding(3);
             this.lblFeedback.Name = "lblFeedback";
             this.lblFeedback.Padding = new System.Windows.Forms.Padding(2);
             this.lblFeedback.Size = new System.Drawing.Size(260, 60);
             this.lblFeedback.TabIndex = 17;
             this.lblFeedback.Text = "feedback";
-            this.lblFeedback.Visible = false;
             // 
             // lblDivider02
             // 
             this.lblDivider02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDivider02.Location = new System.Drawing.Point(12, 230);
+            this.lblDivider02.Location = new System.Drawing.Point(12, 198);
             this.lblDivider02.Margin = new System.Windows.Forms.Padding(3);
             this.lblDivider02.Name = "lblDivider02";
             this.lblDivider02.Size = new System.Drawing.Size(260, 4);
@@ -67,18 +66,18 @@
             // 
             this.txtGuess.Enabled = false;
             this.txtGuess.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGuess.Location = new System.Drawing.Point(149, 198);
+            this.txtGuess.Location = new System.Drawing.Point(149, 166);
             this.txtGuess.MaxLength = 1;
             this.txtGuess.Name = "txtGuess";
             this.txtGuess.Size = new System.Drawing.Size(26, 26);
             this.txtGuess.TabIndex = 15;
-            this.txtGuess.Text = "0";
+            this.txtGuess.Text = "a";
             this.txtGuess.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblGuess
             // 
             this.lblGuess.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGuess.Location = new System.Drawing.Point(12, 198);
+            this.lblGuess.Location = new System.Drawing.Point(12, 166);
             this.lblGuess.Margin = new System.Windows.Forms.Padding(3);
             this.lblGuess.Name = "lblGuess";
             this.lblGuess.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
@@ -102,28 +101,29 @@
             // 
             this.btnSubmit.Enabled = false;
             this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(197, 198);
+            this.btnSubmit.Location = new System.Drawing.Point(197, 166);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(75, 26);
             this.btnSubmit.TabIndex = 18;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnInit
             // 
             this.btnInit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInit.Location = new System.Drawing.Point(12, 90);
+            this.btnInit.Location = new System.Drawing.Point(172, 274);
             this.btnInit.Name = "btnInit";
-            this.btnInit.Size = new System.Drawing.Size(75, 26);
+            this.btnInit.Size = new System.Drawing.Size(100, 26);
             this.btnInit.TabIndex = 19;
-            this.btnInit.Text = "Start";
+            this.btnInit.Text = "Play Again";
             this.btnInit.UseVisualStyleBackColor = true;
             this.btnInit.Click += new System.EventHandler(this.btnInit_Click);
             // 
             // lblDivider01
             // 
             this.lblDivider01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDivider01.Location = new System.Drawing.Point(12, 188);
+            this.lblDivider01.Location = new System.Drawing.Point(12, 156);
             this.lblDivider01.Margin = new System.Windows.Forms.Padding(3);
             this.lblDivider01.Name = "lblDivider01";
             this.lblDivider01.Size = new System.Drawing.Size(260, 4);
@@ -134,15 +134,14 @@
             this.lblWord.BackColor = System.Drawing.Color.Green;
             this.lblWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWord.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.lblWord.Location = new System.Drawing.Point(12, 122);
+            this.lblWord.Location = new System.Drawing.Point(12, 90);
             this.lblWord.Margin = new System.Windows.Forms.Padding(3);
             this.lblWord.Name = "lblWord";
             this.lblWord.Padding = new System.Windows.Forms.Padding(2, 4, 2, 2);
             this.lblWord.Size = new System.Drawing.Size(260, 60);
             this.lblWord.TabIndex = 21;
-            this.lblWord.Text = "****";
+            this.lblWord.Text = "word";
             this.lblWord.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblWord.Visible = false;
             // 
             // frmGuessAWord
             // 
